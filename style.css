@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.whole{
+    margin-top: 10vh;
+    background-color: beige;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    width: 45%;
+    border-radius: 15%;
+    height: 80vh;
+    
+}
+
+h1{
+    color: red;
+
+}
+.btn{
+    background-color: red !important;
+    
+}
+.btn:hover{
+    
+        background-color: black !important;
+}
+.whole:hover{
+    width: 40%;
+}
+.h2{
+    position: relative;
+    bottom: 40px;
+    left: 1050px;
+    color: red;
+    font-size: 30px;
+}
+.label:hover{
+     background-color: rgb(255, 242, 242);
+}
+@media screen and (max-width: 475px) {
+    .whole{
+        margin-top: 10vh;
+        background-color: beige;
+        padding-top: 120px;
+        padding-bottom: 70px;
+        width: 95%;
+        border-radius: 15%;
+        height: 80vh;
+        
+    }
+    .whole:hover{
+        width: 95%;
+    }
+    .h2{
+        position: relative;
+        bottom: 70px;
+        left: 170px;
+        color: red;
+        font-size: 20px;
+        display: inline;
+    }
+    *{
+        
+    }
+    body{
+        overflow: hidden !important;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+        width: 100%;
+    }
+}
