@@ -49,7 +49,7 @@ function checkValue(){
             sound2.pause()
             sound3.pause()
             sound4.play()
-            sound5.pause()
+            sound5.pause()  
             sound6.pause()
 
         }
@@ -74,7 +74,7 @@ function checkValue(){
 
         }
         else if (num.value > 100 ){
-            show.innerHTML = "Alaye, enter a valid number🤒"
+            show.innerHTML = "Alaye, enter a valid score🤒"
             sound1.pause()
             sound2.pause()
             sound3.pause()
@@ -82,11 +82,16 @@ function checkValue(){
             sound5.pause()
             sound6.pause()
             sound7.play()
-
-
-
-        }
-
     }
+        else {
+            console.log("jkad");
+        }
+       
+     }
+     else{
+        show.innerHTML = "Input a score, joor😌"
+
+     }
 }
+
 
