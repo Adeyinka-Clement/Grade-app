@@ -49,7 +49,7 @@ a {
     font-weight: 1000;
     position: relative;
     top: -260px !important;
-    left: -200px;
+    left: -200px !important;
 
 }
 a :hover{
@@ -100,6 +100,6 @@ a :hover{
         font-weight: 1000;
         position: relative;
         top: -260px !important;
-        left: -200px;
+        left: -200px !important;
     }
 }
