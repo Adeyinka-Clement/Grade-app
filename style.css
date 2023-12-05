@@ -35,6 +35,9 @@ h1{
 .input :hover{
     border: 1px solid black !important;
 }
+#favicon{
+    width: 2px;
+}
 .h2{
     position: relative;
     bottom: 40px;
@@ -73,6 +76,16 @@ a :hover{
         height: 80vh;
         
     }
+    a {
+        text-decoration: none;
+        color: red;
+        font-size: 30px !important;
+        font-weight: 1000;
+        position: relative;
+        top: -290px !important;
+        left:   -140px !important;
+    
+    }
     .whole:hover{
         width: 95%;
     }
@@ -80,12 +93,15 @@ a :hover{
         position: relative;
         bottom: 70px;
         left: 170px;
-        color: red;
+        color: red !important;
         font-size: 20px;
         display: inline;
     }
+    :hover .h2{
+        color: black;
+    }
     *{
-        
+        /* border: 1px solid black; */
     }
     body{
         overflow: hidden !important;
@@ -93,13 +109,5 @@ a :hover{
         overflow-y: hidden !important;
         width: 100%;
     }
-    a {
-        text-decoration: none;
-        color: red;
-        font-size: 30px;
-        font-weight: 1000;
-        position: relative;
-        top: -260px !important;
-        left: -200px !important;
-    }
+    
 }
