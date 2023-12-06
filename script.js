@@ -5,6 +5,7 @@ var sound4 = new Audio ("audio/whoosh-transitions-sfx-03-118230.mp3")
 var sound5 = new Audio ("audio/male-scream-in-fear-123079.mp3")
 var sound6 = new Audio ("audio/claps-44774.mp3")
 var sound7 = new Audio ("audio/no-luck-too-bad-disappointing-sound-effect-112943.mp3")
+var sound8 = new Audio ("audio/boo-36556 (2).mp3")
 
 
 
@@ -19,6 +20,7 @@ function checkValue(){
             sound4.pause()
             sound1.pause()
             sound6.pause()
+            sound8.pause()
 
             
 
@@ -31,6 +33,7 @@ function checkValue(){
             sound4.pause()
             sound5.pause()
             sound6.pause()
+            sound8.pause()
 
         }
         else if (num.value >= 45 && num.value < 60){
@@ -41,6 +44,7 @@ function checkValue(){
             sound4.pause()
             sound5.pause()
             sound6.pause()
+            sound8.pause()
 
         }
         else if (num.value >= 60 && num.value < 70){
@@ -51,6 +55,7 @@ function checkValue(){
             sound4.play()
             sound5.pause()  
             sound6.pause()
+            sound8.pause()
 
         }
         else if (num.value >= 70 && num.value < 80){
@@ -61,6 +66,7 @@ function checkValue(){
             sound4.pause()
             sound5.pause()
             sound6.pause()
+            sound8.pause()
 
         }
         else if (num.value >= 80 && num.value <= 100){
@@ -71,6 +77,8 @@ function checkValue(){
             sound4.pause()
             sound5.pause()
             sound6.play()
+            sound8.pause()
+
 
         }
         else if (num.value > 100 ){
@@ -82,10 +90,22 @@ function checkValue(){
             sound5.pause()
             sound6.pause()
             sound7.play()
+            sound8.pause()
+
     }
-        else {
-            console.log("jkad");
-        }
+    else if (num.value < 0 ){
+        show.innerHTML = "Alaye, enter a valid score🤒"
+        sound1.pause()
+        sound2.pause()
+        sound3.pause()
+        sound4.pause()
+        sound5.pause()
+        sound6.pause()
+        sound7.pause()
+        sound8.play()
+
+}
+        
        
      }
      else{
